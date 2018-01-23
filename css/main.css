@@ -1,0 +1,23 @@
+body {
+  background: #2B2B2B;
+  font-family: 'Titillium Web', sans-serif;
+  color: #C5813F;
+  text-align: center;
+}
+
+#logo {
+    font-size: 5em;
+  font-weight: lighter;
+  margin: 4em 0 4em -0.2em;
+}
+
+.logo-1 {
+  font-size: 4.5em;
+  font-weight: lighter;
+  margin: .3em 0 0 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-weight: lighter;
+}
