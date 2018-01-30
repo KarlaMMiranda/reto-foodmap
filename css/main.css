@@ -4,20 +4,82 @@ body {
   color: #C5813F;
   text-align: center;
 }
-
+/*Estilos vista principal */
 #logo {
   font-size: 5em;
   font-weight: lighter;
-  margin: 2em 0 4em -0.2em;
+  margin: 4em 0 5em -0.5em;
 }
 
-.logo-1 {
+#logo-1 {
   font-size: 4.5em;
   font-weight: lighter;
-  margin: .2em 0 0 0;
+  margin: 0 0 0 -0.6em;
   padding-bottom: 0;
 }
 
+hr {
+  margin-left: 2em;
+}
+
 h2 {
+  margin: .5em;
   font-weight: lighter;
+}
+
+#map {
+  margin-left: 3em;
+  height: 10em;
+  width: 18em;
+}
+
+#right-panel {
+  position: absolute;
+  right: 2em;
+  top: 60%;
+  margin-top: 2em;
+  height: 25em;
+  width: 20em;
+  border: 1px solid #999;
+  background: #fff;
+  line-height: 1em;
+}
+
+#right-panel select, #right-panel input {
+  font-size: 2em;
+}
+
+#right-panel select {
+  width: 20em;
+}
+
+#right-panel i {
+  font-size: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 25em;
+  width: 20em;
+  overflow-y: scroll;
+}
+
+li {
+  background-color: #f1f1f1;
+  padding: .5em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+#more {
+  width: 15em;
+  height: 2em;
+  margin: 1em 0 1em 0;
 }
